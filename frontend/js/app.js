@@ -5,7 +5,10 @@ document.getElementById('scanBtn').addEventListener('click', async () => {
     const resultsState = document.getElementById('resultsState');
     
     // Alamat URL API lokal FastAPI kita di Termux
-    const API_BASE_URL = "http://localhost:8080";
+    const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+        ? 'http://localhost:8080'
+        : 'https://ndrmedaa-auto-scan-backend.hf.space';
+    
 
     // 1. Mengubah tampilan UI ke mode Loading
     scanBtn.disabled = true;
