@@ -1,3 +1,14 @@
+---
+title: Auto Scan Backend
+emoji: 🛡️
+colorFrom: indigo
+colorTo: slate
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
+
 # Automated Full-Stack Vulnerability Scanner
 
 A lightweight, enterprise-ready full-stack cybersecurity web application built entirely within an Android environment using **Termux**. This tool performs automated network port scanning, analyzes critical HTTP security headers, and generates dynamic, executive-grade PDF audit reports with vector statistical visualizations.
