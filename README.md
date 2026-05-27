@@ -30,18 +30,19 @@ A lightweight, enterprise-ready full-stack cybersecurity web application built e
 
 ## Project Architecture
 
-auto-scan/
-├── backend/
-│   ├── app.py                # Main FastAPI Gateway & Whitelist Security
-│   ├── requirements.txt      # Backend Python dependencies
-│   └── core/
-│       ├── scanner.py        # TCP Socket connection scanner
-│       ├── header_scan.py    # Stealth HTTP header analyzer
-│       └── reporter.py       # Vector PDF report generator engine
-└── frontend/
-    ├── index.html            # Dark-mode dashboard UI
-    └── js/
-        └── app.js            # Fetch API integration handler
+ 📂 `auto-scan/` — Root project folder
+   📂 `backend/` — Backend API server environment
+     📄 `app.py` — Main FastAPI gateway & whitelist security
+     📄 `requirements.txt` — Python backend package dependencies
+     📂 `core/` — Core modular security engines
+       📄 `scanner.py` — TCP socket port connection mapping
+       📄 `header_scan.py` — Stealth HTTP security header analyzer
+       📄 `reporter.py` — Vector PDF report generator engine
+   📂 `frontend/` — Frontend UI dashboard environment
+     📄 `index.html` — Tailwind CSS dark-mode dashboard interface
+     📂 `js/` — Client-side logic scripts
+       📄 `app.js` — Asynchronous Fetch API network handler
+
 ---
 
 # How to Setup and Run Locally
