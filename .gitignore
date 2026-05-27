@@ -1,0 +1,10 @@
+# Mengabaikan cache python
+__pycache__/
+*.pyc
+
+# Mengabaikan file laporan PDF hasil scan lokal biar gak menuh-menuhin GitHub
+backend/*.pdf
+frontend/js/app.js/
+
+# Mengabaikan file sistem OS
+.DS_Store
