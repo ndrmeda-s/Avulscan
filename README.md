@@ -30,18 +30,20 @@ A lightweight, enterprise-ready full-stack cybersecurity web application built e
 
 ## Project Architecture
 
- 📂 `auto-scan/` — Root project folder
-   📂 `backend/` — Backend API server environment
-     📄 `app.py` — Main FastAPI gateway & whitelist security
-     📄 `requirements.txt` — Python backend package dependencies
-     📂 `core/` — Core modular security engines
-       📄 `scanner.py` — TCP socket port connection mapping
-       📄 `header_scan.py` — Stealth HTTP security header analyzer
-       📄 `reporter.py` — Vector PDF report generator engine
-   📂 `frontend/` — Frontend UI dashboard environment
-     📄 `index.html` — Tailwind CSS dark-mode dashboard interface
-     📂 `js/` — Client-side logic scripts
-       📄 `app.js` — Asynchronous Fetch API network handler
+```
+ auto-scan/
+ ├── backend/
+ │   ├── app.py                # Main FastAPI Gateway & Whitelist Security
+ │   ├── requirements.txt      # Backend Python dependencies
+ │   └── core/
+ │       ├── scanner.py        # TCP Socket connection scanner
+ │       ├── header_scan.py    # Stealth HTTP header analyzer
+ │       └── reporter.py       # Vector PDF report generator engine
+ └── frontend/
+     ├── index.html            # Dark-mode dashboard UI
+     └── js/
+         └── app.js            # Fetch API integration handler
+```
 
 ---
 
@@ -49,32 +51,41 @@ A lightweight, enterprise-ready full-stack cybersecurity web application built e
 ​Prerequisites (For Termux/Android users)
 ​Ensure you have the required compilers to build modern Python rust-based wheels:
 
+```
 pkg update && pkg upgrade -y
 pkg install clang make rust python -y
 export ANDROID_API_LEVEL=24
+```
 
 ---
 
 1. Backend Deployment
+
 Navigate to the backend directory, install dependencies, and fire up the Uvicorn server:
 
+```
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --host 0.0.0.0 --port 8080 --reload
+```
 
 The API engine will stand by at http://localhost:8080.
 
 ---
 
 ​2. Frontend Deployment
+
 ​Open a New Session in Termux, navigate to the frontend directory, and run a lightweight local HTTP server:
 
+```
 cd frontend
 python -m http.server 8000
+```
 
 Open your browser and access the interactive dashboard at: http://localhost:8000.
 
 ---
 
 ​# Legal Disclaimer
+
 ​This project is developed exclusively for educational purposes and academic portfolio documentation. The scanning activity is heavily restricted via strict server-side whitelisting to authorized hosts only. Unauthorized network mapping may violate cyber laws (e.g., UU ITE in Indonesia).
