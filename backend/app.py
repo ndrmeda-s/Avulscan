@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Batasan target laboratorium siber yang sah (Hard Whitelist Security)
-ALLOWED_TARGETS = ["scanme.nmap.org", "github.com", "auto-scan-chi.vercel.app", "sayuran.vip"]
+ALLOWED_TARGETS = ["scanme.nmap.org", "github.com", "avulscan.vercel.app", "sayuran.vip"]
 
 @app.get("/")
 def home():
