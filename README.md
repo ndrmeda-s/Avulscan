@@ -87,6 +87,8 @@ Open your browser and access the interactive dashboard at: http://localhost:8000
 
 ---
 
-​### Legal Disclaimer
+### Legal Disclaimer
 
 ​This project is developed exclusively for educational purposes and academic portfolio documentation. The scanning activity is heavily restricted via strict server-side whitelisting to authorized hosts only. Unauthorized network mapping may violate cyber laws (e.g., UU ITE in Indonesia).
+
+---
