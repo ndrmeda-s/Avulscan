@@ -60,7 +60,7 @@ export ANDROID_API_LEVEL=24
 
 ---
 
-1. Backend Deployment
+## 1. Backend Deployment
 
 Navigate to the backend directory, install dependencies, and fire up the Uvicorn server:
 
@@ -74,7 +74,7 @@ The API engine will stand by at http://localhost:8080.
 
 ---
 
-​2. Frontend Deployment
+## ​2. Frontend Deployment
 
 ​Open a New Session in Termux, navigate to the frontend directory, and run a lightweight local HTTP server:
 
@@ -87,6 +87,6 @@ Open your browser and access the interactive dashboard at: http://localhost:8000
 
 ---
 
-​# Legal Disclaimer
+​### Legal Disclaimer
 
 ​This project is developed exclusively for educational purposes and academic portfolio documentation. The scanning activity is heavily restricted via strict server-side whitelisting to authorized hosts only. Unauthorized network mapping may violate cyber laws (e.g., UU ITE in Indonesia).
