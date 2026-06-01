@@ -32,7 +32,7 @@ A lightweight, enterprise-ready full-stack cybersecurity web application built e
 ## Project Architecture
 
 ```
- auto-scan/
+ avulscan/
  ├── backend/
  │   ├── app.py                # Main FastAPI Gateway & Whitelist Security
  │   ├── requirements.txt      # Backend Python dependencies
