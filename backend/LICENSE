@@ -175,27 +175,44 @@
 
    END OF TERMS AND CONDITIONS
 
-   APPENDIX: How to apply the Apache License to your work.
+   ADDITIONAL TERMS: ETHICAL USE AND LIABILITY DISCLAIMER
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+
+   These Additional Terms supplement the Apache License 2.0 for this software
+   and form a binding part of the license agreement.
+
+   By using, copying, modifying, or distributing this software, you expressly
+   agree to the following additional terms:
+
+   1. AUTHORIZED USE ONLY
+      This software is intended for educational purposes, network diagnostics,
+      and authorized security testing ONLY. You may only use this software on
+      systems, networks, or applications that you own or have explicit written
+      permission to test. This software includes a hard-coded whitelist restricting
+      scans to authorized hosts.
+
+   2. PROHIBITED ACTIVITIES
+      You agree NOT to use this software for any unlawful purpose, including but
+      not limited to: unauthorized access, port scanning without consent, denial
+      of service, or any activity that violates local, national, or international
+      laws including but not limited to UU ITE in Indonesia. Attempts to bypass
+      the built-in whitelist are strictly prohibited.
+
+   3. LICENSE TERMINATION
+      Any use of this software in violation of these Additional Terms immediately
+      and automatically terminates your rights granted under this License. Continued
+      use after violation constitutes copyright infringement and may subject you
+      to legal action.
+
+   4. INDEMNIFICATION AND LIABILITY
+      TO THE MAXIMUM EXTENT PERMITTED BY LAW, you agree to indemnify, defend, and
+      hold harmless the authors, copyright holders, and contributors from any claim,
+      damages, legal fees, or other liability arising from your misuse of this
+      software. You assume all responsibility and risk for your use of this software.
+
+   You must retain this notice and the Additional Terms in all copies or
+   substantial portions of the Software.
 
    Copyright 2026 ndrmeda-s
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+   Licensed under the Apache License, Version 2.0 with Additional Terms.
