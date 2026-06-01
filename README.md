@@ -87,8 +87,23 @@ Open your browser and access the interactive dashboard at: http://localhost:8000
 
 ---
 
-### Legal Disclaimer
+## License & Terms of Use
 
-​This project is developed exclusively for educational purposes and academic portfolio documentation. The scanning activity is heavily restricted via strict server-side whitelisting to authorized hosts only. Unauthorized network mapping may violate cyber laws (e.g., UU ITE in Indonesia).
+This project uses a dual-license model:
+
+**1. Frontend - MIT License**  
+Code under `frontend/` is licensed under MIT. See `frontend/LICENSE`.
+
+**2. Backend - Apache License 2.0 + Ethical Use Terms**  
+Code under `backend/` is licensed under Apache 2.0. See `backend/LICENSE`. 
+
+**By using any part of this software, you agree to the following binding terms:**
+
+1. **Authorized Use Only**: This tool is for educational purposes and authorized security testing ONLY. You may only scan systems you own or have explicit written permission to test.
+2. **No Illegal Activity**: Unauthorized network scanning may violate laws such as UU ITE in Indonesia. Any illegal use immediately terminates your license to this software.
+3. **Whitelist Enforcement**: The backend has a hard-coded whitelist: `scanme.nmap.org`, `github.com`, `sayuran.vip`. Attempts to bypass it are prohibited.
+4. **No Warranty & Liability**: The software is provided "AS IS". Developers assume no liability for damages or legal consequences arising from misuse.
+
+Violation of these terms constitutes copyright infringement.
 
 ---
