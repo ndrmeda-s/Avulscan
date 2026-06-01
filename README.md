@@ -101,7 +101,7 @@ Code under `backend/` is licensed under Apache 2.0. See `backend/LICENSE`.
 
 1. **Authorized Use Only**: This tool is for educational purposes and authorized security testing ONLY. You may only scan systems you own or have explicit written permission to test.
 2. **No Illegal Activity**: Unauthorized network scanning may violate laws such as UU ITE in Indonesia. Any illegal use immediately terminates your license to this software.
-3. **Whitelist Enforcement**: The backend has a hard-coded whitelist: `scanme.nmap.org`, `github.com`, `sayuran.vip`. Attempts to bypass it are prohibited.
+3. **Whitelist Enforcement**: The backend has a hard-coded whitelist: `scanme.nmap.org`, `github.com`, `avulscan.vercel.app`, `sayuran.vip`. Attempts to bypass it are prohibited.
 4. **No Warranty & Liability**: The software is provided "AS IS". Developers assume no liability for damages or legal consequences arising from misuse.
 
 Violation of these terms constitutes copyright infringement.
