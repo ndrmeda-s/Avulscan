@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Avulscan</h1>
+<h1>Automated Vulnerability Scanner</h1>
 
 <img src="./assets/banner.gif" width="600" height="240" alt="Vulnerability Scanner Banner"/>
 
@@ -15,9 +15,9 @@ Modular Full-Stack Security Assessment Tool built with FastAPI and Docker.
 
 ---
 
-# Automated Vulnerability Scanner
+# Description
 
-A lightweight, enterprise-ready full-stack cybersecurity web application built entirely within an Android environment using **Termux**. This tool performs automated network port scanning, analyzes critical HTTP security headers, and generates dynamic, executive-grade PDF audit reports with vector statistical visualizations.
+Avulscan is a lightweight, enterprise-ready full-stack cybersecurity web application built entirely within an Android environment using **Termux**. This tool performs automated network port scanning, analyzes critical HTTP security headers, and generates dynamic, executive-grade PDF audit reports with vector statistical visualizations.
 
 ---
 
