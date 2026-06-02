@@ -4,7 +4,7 @@
 
 <img src="./assets/banner.gif" width="600" height="240" alt="Vulnerability Scanner Banner"/>
 
-Modular Full-Stack Security Assessment Tool built with FastAPI and Docker.
+Modular Full-Stack Security Assessment Tool built with **FastAPI** and **Docker**.
 
 [![Python](https://img.shields.io/badge/python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -18,9 +18,9 @@ Modular Full-Stack Security Assessment Tool built with FastAPI and Docker.
 # Description
 
 **Avulscan** is a full-stack security assessment tool designed for educational use on 
-pre-authorized assets. Leveraging FastAPI and Docker, it modularly scans for open 
-ports, evaluates HTTP security headers, and outputs PDF audit reports. Compatible 
-with **Desktop** and **Termux** environments.
+pre-authorized assets. Leveraging **FastAPI** and **Docker**, it modularly scans for open 
+ports, evaluates HTTP security headersecurity, and outputs PDF audit reports. Compatible 
+with Desktop and Termux environments.
 
 ---
 
