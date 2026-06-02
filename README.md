@@ -1,3 +1,19 @@
+<div align="center">
+
+<h1>Avulscan</h1>
+
+<img src="./assets/banner.gif" width="600" height="240" alt="Vulnerability Scanner Banner"/>
+
+Modular Full-Stack Security Assessment Tool built with FastAPI and Docker.
+
+[![Python](https://img.shields.io/badge/python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Vercel](https://img.shields.io/badge/vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+</div>
+
+---
 
 # Automated Full-Stack Vulnerability Scanner
 
