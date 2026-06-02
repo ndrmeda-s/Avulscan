@@ -17,7 +17,10 @@ Modular Full-Stack Security Assessment Tool built with FastAPI and Docker.
 
 # Description
 
-**Avulscan** is a lightweight, enterprise-ready full-stack cybersecurity web application built entirely within an Android environment using **Termux**. This tool performs automated network port scanning, analyzes critical HTTP security headers, and generates dynamic, executive-grade PDF audit reports with vector statistical visualizations.
+**Avulscan** is a full-stack security assessment tool designed for educational use on 
+pre-authorized assets. Leveraging FastAPI and Docker, it modularly scans for open 
+ports, evaluates HTTP security headers, and outputs PDF audit reports. Compatible 
+with **Desktop** and **Termux** environments.
 
 ---
 
